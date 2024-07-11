@@ -35,3 +35,25 @@ const myFunctio = function()
 }
 
 console.log(typeof outsideTemp);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++
+
+//There are two types of memory:-
+//  1. Stack Memory:- Stack is use all (primitive) data type
+//  2. Heap Memory :- Heap is use for (Non-Primitive).
+
+let myYoutubename = "sauravgupta.com"
+let anothername  = myYoutubename
+anothername = "guptasauarv123.com"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "saurav@gmail.com",
+    upi: "user@ybl"
+}
+let userTwo  = userOne
+userTwo.email = "gupta@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
